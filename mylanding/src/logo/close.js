@@ -5,7 +5,7 @@ const close = () => {
     <svg
       xmlns='http://www.w3.org/2000/svg'
       preserveAspectRatio='xMaxYMid meet'
-      class='h-6 w-6'
+      class='h-7 md:h-9 w-7 md:w-9'
       fill='none'
       viewBox='0 0 24 24'
       width='100%'

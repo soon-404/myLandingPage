@@ -11,6 +11,16 @@ module.exports = {
         xl: "1280px",
         "2xl": "1536px",
       },
+      width: {
+        300: "300px",
+        120: "30rem",
+        lineBig: "70%",
+      },
+      height: {
+        300: "300px",
+        120: "40rem",
+        lineBig: "50%",
+      },
     },
     borderRadius: {
       large: "50px",

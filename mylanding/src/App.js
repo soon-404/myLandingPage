@@ -10,8 +10,8 @@ function App() {
   return (
     <div className='flex h-screen w-screen flex-col justify-center items-center bg-yellow-400'>
       <main className='flex h-screen w-screen flex-col justify-center items-center bg-yellow-400'>
-        <div className='my-20 w-40 md:w-100 h-40 md:h-100 rounded-full ring-4 md:ring-8 ring-blue-500 ring-offset-transparent bg-white'></div>
-        <text className='text-2xl smd:text-5xl lg:text-6xl font-mono'>
+        <div className='my-8 md:my-14 w-40 md:w-300 h-40 md:h-300 rounded-full ring-4 md:ring-8 ring-blue-500 ring-offset-transparent bg-white'></div>
+        <text className='mb-4 md:mb-5 text-2xl smd:text-5xl lg:text-6xl font-mono'>
           Thanakorn Chancherngpanich
         </text>
         <div className='w-screen flex flex-row justify-items-center justify-center space-x-5 md:space-x-10'>
@@ -37,7 +37,7 @@ function App() {
           </a>
 
           <div
-            className='w-14 md:w-24 h-14 md:h-24'
+            className='w-14 md:w-24 h-14 md:h-24 cursor-pointer'
             onClick={() => setLinePop(true)}
           >
             <Line />
