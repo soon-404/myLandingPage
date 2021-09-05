@@ -5,8 +5,8 @@ import Line from "./logo/line";
 import Popline from "./components/PopLine";
 import Profile from "./images/soon.jpg";
 import { useState } from "react";
-// import useSound from "use-sound";
-// import test from "./Sounds/test.mp3";
+import useSound from "use-sound";
+import test from "./Sounds/test.mp3";
 function App() {
   const [linePop, setLinePop] = useState(false);
   const [play, { stop }] = useSound(test, { volume: 0.5 });
@@ -17,8 +17,7 @@ function App() {
         onClick={stop}
       >
         <div className='my-8 md:my-14 w-40 md:w-300 h-40 md:h-300 rounded-full ring-4 md:ring-8 ring-white ring-offset-transparent bg-white'>
-          {/* <img className=' rounded-full' src={Profile} onClick={play}></img> */}
-          <img className=' rounded-full' src={Profile}></img>
+          <img className=' rounded-full' src={Profile} onClick={play}></img>
         </div>
         <text className='mb-4 md:mb-5 text-2xl smd:text-5xl lg:text-6xl font-mono text-gray-100'>
           Thanakorn Chancherngpanich
